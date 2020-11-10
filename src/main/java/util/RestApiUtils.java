@@ -207,7 +207,7 @@ public class RestApiUtils {
      *            the ID of the target site
      * @param groupName
      *            the name to assign to the new group
-     * @param requestPayload
+     * @param
      *            the payload used to create the group
      * @return the group if it was successfully created, otherwise
      *         <code>null</code>
@@ -244,7 +244,7 @@ public class RestApiUtils {
      *            this request
      * @param siteId
      *            the ID of the target site
-     * @param requestPayload
+     *
      *            the XML payload containing the workbook attributes used to
      *            publish the workbook
      * @param workbookFile
@@ -359,7 +359,7 @@ public class RestApiUtils {
     /**
      * Invokes an HTTP request to sign in to the server.
      *
-     * @param requestPayload
+     *  requestPayload
      *            the payload containing the username and password to authenticate
      * @return the credential if authentication was successful, otherwise
      *         <code>null</code>
@@ -641,7 +641,7 @@ public class RestApiUtils {
      *            this request
      * @param siteId
      *            the ID of the target site
-     * @param requestPayload
+     *
      *            the XML payload containing the workbook attributes used to
      *            publish the workbook
      * @param workbookFile
@@ -701,7 +701,7 @@ public class RestApiUtils {
      *            this request
      * @param siteId
      *            the ID of the target site
-     * @param requestPayload
+     *  requestPayload
      *            the XML payload containing the workbook attributes used to
      *            publish the workbook
      * @param workbookFile
@@ -818,7 +818,7 @@ public class RestApiUtils {
      *            the authentication token to use for this request
      * @param requestPayload
      *            the payload to send with the request
-     * @param file
+     *
      *            the file to send with the request
      * @return the response from the request
      */
@@ -928,7 +928,7 @@ public class RestApiUtils {
      *            the authentication token to use for this request
      * @param requestPayload
      *            the payload to send with the request
-     * @param file
+     *
      *            the file to send with the request
      * @return the response from the request
      */
